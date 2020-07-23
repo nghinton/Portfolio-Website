@@ -1,3 +1,13 @@
+Welcome to my personal portfolio website, I site I made to showcase some of the projects I'm proudest
+of while searching for a software developer job. I believe it does a good job of highlighting some of
+my assets as a developer and lets a user to get to know a little more about me.
+
+Website address: https://nghinton.github.io/Portfolio-Website
+
+This webiste was made using the massively template as I am not an expert on HTML and CSS, and credit 
+is given below. But it was a pretty good learning experience taking and manipulating this template 
+to do what I needed it to.
+
 Massively by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
