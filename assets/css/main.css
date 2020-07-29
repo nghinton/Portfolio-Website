@@ -181,6 +181,10 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	.story {
+		text-align: justify;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 900;
