@@ -31,4 +31,4 @@ jobs:
         env:
           S3BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         run: |
-          aws s3 sync ./ s3://$S3BUCKET --exclude "*.txt"
+          aws s3 sync ./ s3://$S3BUCKET --exclude "*.txt" --exclude "*.git*"
