@@ -14,19 +14,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Use Node.js 18
-        uses: actions/setup-node@v2
-        with:
-          node-version: "18"
-
-      - name: NPM Install
-        run: |
-          npm ci
-
-      - name: React Build
-        run: |
-          npm run build
-
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
