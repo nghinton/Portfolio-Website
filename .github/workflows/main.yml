@@ -32,3 +32,9 @@ jobs:
           S3BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         run: |
           aws s3 sync ./ s3://$S3BUCKET --exclude "*.txt" --exclude "*.git*"
+
+      - name: Invalidate cloudfront distribution
+        env:
+          CLOUDFRONTID: ${{ secrets.AWS_CLOUDFRONT_ID }}
+        run: |
+          aws cloudfront create-invalidation --distribution-id $CLOUDFRONTID --paths "/*"
